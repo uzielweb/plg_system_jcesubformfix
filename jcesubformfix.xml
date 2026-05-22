@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="4.0" type="plugin" group="system" method="upgrade">
+  <name>plg_system_jcesubformfix</name>
+  <version>1.0.0</version>
+  <creationDate>May 2026</creationDate>
+  <author>Uziel - Ponto Mega</author>
+  <authorEmail>contato@pontomega.com.br</authorEmail>
+  <authorUrl>https://www.pontomega.com.br</authorUrl>
+  <copyright>Copyright (C) 2026 Uziel - Ponto Mega. All rights reserved.</copyright>
+  <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+  <description>PLG_SYSTEM_JCESUBFORMFIX_XML_DESCRIPTION</description>
+  <files folder="plugins/system/jcesubformfix">
+    <file plugin="jcesubformfix">jcesubformfix.php</file>
+    <file>LICENSE.txt</file>
+    <file>README.md</file>
+    <folder>language</folder>
+    <folder>services</folder>
+    <folder>src</folder>
+  </files>
+
+  <namespace path="src">Joomla\Plugin\System\JceSubformFix</namespace>
+
+  <config>
+  </config>
+</extension>

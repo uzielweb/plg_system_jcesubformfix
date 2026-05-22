@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="4.0" type="plugin" group="system" method="upgrade">
   <name>plg_system_jcesubformfix</name>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <creationDate>May 2026</creationDate>
   <author>Uziel - Ponto Mega</author>
   <authorEmail>contato@pontomega.com.br</authorEmail>
@@ -11,17 +11,15 @@
   <description>PLG_SYSTEM_JCESUBFORMFIX_XML_DESCRIPTION</description>
   <files>
     <file plugin="jcesubformfix">jcesubformfix.php</file>
-    <file>LICENSE.txt</file>
-    <file>README.md</file>
     <folder>services</folder>
     <folder>src</folder>
   </files>
 
-  <languages folder="language">
-    <language tag="en-GB">en-GB/en-GB.plg_system_jcesubformfix.ini</language>
-    <language tag="en-GB">en-GB/en-GB.plg_system_jcesubformfix.sys.ini</language>
-    <language tag="pt-BR">pt-BR/pt-BR.plg_system_jcesubformfix.ini</language>
-    <language tag="pt-BR">pt-BR/pt-BR.plg_system_jcesubformfix.sys.ini</language>
+  <languages>
+    <language tag="en-GB">language/en-GB/en-GB.plg_system_jcesubformfix.ini</language>
+    <language tag="en-GB">language/en-GB/en-GB.plg_system_jcesubformfix.sys.ini</language>
+    <language tag="pt-BR">language/pt-BR/pt-BR.plg_system_jcesubformfix.ini</language>
+    <language tag="pt-BR">language/pt-BR/pt-BR.plg_system_jcesubformfix.sys.ini</language>
   </languages>
 
   <namespace path="src">Joomla\Plugin\System\JceSubformFix</namespace>

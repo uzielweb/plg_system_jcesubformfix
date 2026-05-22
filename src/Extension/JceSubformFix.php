@@ -23,6 +23,14 @@ use Joomla\CMS\Plugin\CMSPlugin;
 final class JceSubformFix extends CMSPlugin
 {
     /**
+     * Load the language file on instantiation.
+     *
+     * @var    boolean
+     * @since  1.0.0
+     */
+    protected $autoloadLanguage = true;
+
+    /**
      * Prepare the form to make sure Joomla's subforms support JCE media fields.
      *
      * @param   Form   $form  The form to be altered.

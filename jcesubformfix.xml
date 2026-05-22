@@ -9,14 +9,20 @@
   <copyright>Copyright (C) 2026 Uziel - Ponto Mega. All rights reserved.</copyright>
   <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
   <description>PLG_SYSTEM_JCESUBFORMFIX_XML_DESCRIPTION</description>
-  <files folder="plugins/system/jcesubformfix">
+  <files>
     <file plugin="jcesubformfix">jcesubformfix.php</file>
     <file>LICENSE.txt</file>
     <file>README.md</file>
-    <folder>language</folder>
     <folder>services</folder>
     <folder>src</folder>
   </files>
+
+  <languages folder="language">
+    <language tag="en-GB">en-GB/en-GB.plg_system_jcesubformfix.ini</language>
+    <language tag="en-GB">en-GB/en-GB.plg_system_jcesubformfix.sys.ini</language>
+    <language tag="pt-BR">pt-BR/pt-BR.plg_system_jcesubformfix.ini</language>
+    <language tag="pt-BR">pt-BR/pt-BR.plg_system_jcesubformfix.sys.ini</language>
+  </languages>
 
   <namespace path="src">Joomla\Plugin\System\JceSubformFix</namespace>
 
